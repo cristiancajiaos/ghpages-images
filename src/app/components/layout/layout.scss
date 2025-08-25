@@ -3,14 +3,14 @@
   height: 300px;
 
   &:nth-child(1) {
-    background-image: url('/img/projects/cristianvedocs.png');
+    background-image: url('../../../../public/img/projects/cristianvedocs.png');
   }
 
   &:nth-child(2) {
-    background-image: url('/img/projects/seguroedificio.png');
+    background-image: url('../../../../public/img/projects/seguroedificio.png');
   }
 
   &:nth-child(3) {
-    background-image: url('/img/projects/enestoestuve.png');
+    background-image: url('../../../../public/img/projects/enestoestuve.png');
   }
 }

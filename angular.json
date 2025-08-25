@@ -40,7 +40,10 @@
             "styles": [
               "src/styles.scss"
             ],
-            "outputPath": "dist/ghpages-images"
+            "outputPath": "dist/ghpages-images",
+            "stylePreprocessorOptions": {
+              "includePaths": [""]
+            }
           },
           "configurations": {
             "production": {
