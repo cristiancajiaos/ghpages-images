@@ -39,7 +39,8 @@
             ],
             "styles": [
               "src/styles.scss"
-            ]
+            ],
+            "outputPath": "dist/ghpages-images"
           },
           "configurations": {
             "production": {
@@ -100,6 +101,9 @@
               "src/styles.scss"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }

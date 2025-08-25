@@ -1,0 +1,16 @@
+.bg-image {
+  background-size: cover;
+  height: 300px;
+
+  &:nth-child(1) {
+    background-image: url('/img/projects/cristianvedocs.png');
+  }
+
+  &:nth-child(2) {
+    background-image: url('/img/projects/seguroedificio.png');
+  }
+
+  &:nth-child(3) {
+    background-image: url('/img/projects/enestoestuve.png');
+  }
+}
